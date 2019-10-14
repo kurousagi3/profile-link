@@ -1,0 +1,39 @@
+*{
+	text-align: center;
+	margin: auto;
+	color: black;
+}
+header{
+	background-color: #754545;
+	position: fixed;
+	display: flex;
+	width: 100%;
+	height: 50px;
+	margin: 0;
+	z-index: 9999;
+}
+h1{
+	margin: 0;
+}
+#nav-drawer{
+	margin-right: 10px; 
+}
+.nav-unshown{
+	display: none;
+}	
+.global-nav{
+	overflow: auto;
+	position: fixed;
+	top: 50px;
+ 	left: 0;
+ 	z-index: 99;
+	width: 100%;	
+	background-color: #d2ffd7;
+}
+.global-nav a{
+	margin:10px;
+}
+.global-nav img{
+	border-radius: 1px;
+}
+
