@@ -47,11 +47,11 @@ main{
 	padding-top: 30px;
 	width: 70%;
 }	
-.page1,.page2,.page3,#blog{
+.page1,.page2,.page3,.page4,#blog{
 	margin: 30px 0 40px;
 	display: flex;
 }
-.page1 p,.page2 p,.page3 p,#blog p{
+.page1 p,.page2 p,.page3 p,.page4 p,#blog p{
 	background-color: #f0f5c3;
 	text-align: left;
 	margin-top: 0;

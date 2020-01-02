@@ -118,15 +118,15 @@ h3{
 	padding: 15px;
 	word-wrap: break-word;
 }
-.page1 img,.page2 img,.page3 img{
+.page1 img,.page2 img,.page3 img,.page4 img{
 	margin: 5px;
 }
-.page1,.page2,.page3{
+.page1,.page2,.page,.page4 {
 	width: 90%;
 	padding: 10px 5px;
 	margin-bottom: 10px;
 }
-.page1 p,.page2 p,.page3 p{
+.page1 p,.page2 p,.page3 p,.page4 p{
 	background-color: #cdf7e5de;
 
 }
