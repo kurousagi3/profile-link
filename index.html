@@ -1,111 +1,111 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head lang="ja">
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Portfoli</title>
-	<link rel="stylesheet" href="css/style.css" media="(max-width:450px)">
-	<link rel="stylesheet" href="css/desktop.css" media="(min-width:451px)">
-	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
-	<meta name="kyewords" content="ポートフォリオ,サイト作成,ＨＴＭＬ,ＣＳＳ">
-
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title></title>
+	<link rel="stylesheet" href="style.css">
+<!-- 	<script type="text/javascript"  src="java.js"></script> -->
 </head>
 <body>
-	<header>
-		<h1>Portfoli Site</h1>
-		<div id="nav-drawer">
-			<input id="nav-input" type="checkbox" class="nav-unshown">
-			<label id="nav-open" for="nav-input"><span></span></label>
-			<label class="nav-unshown" id="nav-close" for="nav-input"></label>
-			<nav class="global-nav">
-				<table>
-					<tr>
-						<th><a href="#Portfoli">ポートフォリオ</a></th>
-						<th><a href="#blog">ブログ</a></th>
-						<th><a href="#profile">プロフィール</a></th>
-					</tr>
-				</table>	
-			</nav>
-		</div>
+	<header id="header">
+		<h1><a href="index.html">Portfoli Site</a></h1>
 	</header><!-- /header -->
-		<main>
-			<div id="Portfoli">
-				<h2>ポートフォリオ集</h2>
-				<p>これまで作成したページの紹介です。各画像をクリックするとＧｉｔＨｕｂの公開ページが開きます。<br>
-					※スマホ用サイト作成（2019.10.14　作成時間：約６時間）<br>
-				 	※PC用対応（2019/11/13　作成時間約1時間半）</p>
-				 <a href="https://kurousagi3.github.io/portfolio_all/">別画面で表示</a>
-				<h3>１．某イタリアン店アクセスページ</h3>
-				<div class="page1">
-					<a href="https://kurousagi3.github.io/Portfolio1/"><img src="image/Portfolio1.jpg" alt="イタリアン店アクセスページ"></a>
-					<p><a href="https://krousagi3.github.io/Portfolio1/">https://kurousagi3.github.io/Portfolio1/</a><br>
-						■挑戦したこと：Googleマップの埋め込み。読み込みが重くならないよう画像を減らす⇒背景のボーダーはCSS「repeating-linear-gradient」で作成。<br>
-						■作業時間：コーディングのみ約4時間<br>
-						■その他：初めてのコーディングでタグを調べながらの作業で時間がかかったが、主に「display」や「position」について学ぶことができた。
-					</p>
-				</div>
-				<h3>２．某しゃぶしゃぶ店トップページ</h3>
-				<div class="page2">
-					<a href="https://kurousagi3.github.io/Portfolio2/"><img src="image/Portfolio2.jpg" alt="和食店ページ"></a>	
-					<p><a href="https://kurousagi3.github.io/Portfolio2/">https://kurousagi3.github.io/Portfolio2/</a><br>
-						■挑戦したこと：ＣＳＳの「keyframes」でアニメーション。和食店らしく縦書きなどレイアウトを意識しました。<br>
-						■作業時間：デザイン＆コーディング：約10時間<br>
-						■その他：２回目のページ作成ではデザインから行いました。写真を多く載せたりTOP画像のアニメーションなど動きのあるページ作りがテーマ。また、JSやjavascriptに挑戦するにはまだHTMLやCSSの知識が浅いこともあり、今回はＣＳＳのみで挑戦しました。
-					</p>
-				</div>
-				<h3>３.道の駅スタンプラリー（関東版）リンク集</h3>
-				<div class="page3">
-					<a href="https://kurousagi3.github.io/Blog/michi/michi_kantou.html"><img src="image/Portfolio3.jpg" alt="道の駅関東ページ"></a>
-					<p><a href="https://kurousagi3.github.io/Blog/michi/michi_kantou.html">https://kurousagi3.github.io/Blog/michi/michi_kantou.html</a><br>
-						■挑戦したこと：[table]タグやリンクのターゲット<br>
-						■作業時間：デザイン＆コーディング＆スタンプ画像編集（165個）：約15時間<br>
-						■その他：	情報量が多いため、スマホ版では「display: none」で表示する量の調整をしました。また、ページが長いため、「ＴＯＰ」へ戻るボタンや必要なページへのリンク用にボタンタグを多めに使用した。
-					</p>					
-				</div>
-				<h3>4.温泉ｎａｖｉ</h3>
-				<div class="page4">
-					<a href="https://kurousagi3.github.io/Portfolio3/"><img src="image/Portfolio4.jpg" alt="温泉naviページ"></a>
-					<p><a href="https://kurousagi3.github.io/Portfolio3/">https://kurousagi3.github.io/Portfolio3/</a><br>
-						■挑戦したこと：ｃｓｓファイル１つでのレスポンシブ対応、2カラム(左固定)<br>
-						■作業時間：デザイン＆コーディング：約4時間<br>
-						■その他：	CSSアニメーションと左のナビレスポンシブサイトのドロワーメニューなど、枠組みを意識しました。また、今回はＣＳＳファイル１つで「@media screen」を使用し、モバイルファーストで作成。
-					</p>					
-				</div>
-			</div>
-			<h2>個人ブログ</h2>
-			<div id="blog">
-				<a href="https://kurousagi3.github.io/Blog/#"><img src="image/blog2.jpg" alt="個人ブログ"></a>
-				<p><a href="https://kurousagi3.github.io/Blog/">https://kurousagi3.github.io/Blog/</a><br>
-					■挑戦したこと：ＪＳの日本地図(※Git hub掲載画面ではＪＳがエラーで表示されません)<br>
-					■作業時間：デザイン＆コーディング※画像編集含む：約15時間<br>
-					■その他：「Taget」でページ中央にリンク集を表示。（※リンク先記事は現在サイト移行中のため表示されません）
-				</p>
-			</div>
-
-			
-			<div id="profile">
-				<h2>プロフィール</h2>
-				<dl>
-					<dt class="cap">名前</dt>
-					<dd>megumi</dd>
-					<dt  class="cap">学習中</dt>
-					<dd>ＨＴＭＬ、ＣＳＳ、Ｅｘｃｅｌ関数、VBA(勉強中）</dd>
-					<dt class="cap">経験職</dt>
-					<dd>法律事務、広告営業（記事作成含む）、雑貨販売</dd>
-					<dt class="cap">今後やりたいこと</dt>
-					<dd>WEB作成やライティングなど創作に関わりたいです。</dd>
-					<dt class="cap">趣味</dt>
-					<dd>旅行（目標は道の駅スタンプラリーで日本全国制覇！）、食べ歩き、ライブ、ビーズアクセサリー作り</dd>
-					<dt class="cap">特技</dt>
-					<dd>人マネをして勝手に学ぶこと。仕事も遊びもアンテナを張っており失敗も成功も疑問もすべてネタと思い楽しめるところ。</dd>
-					<dt class="cap">ちょっと自慢できること</dt>
-					<dd>趣味の旅行ブログは某ブログランキング最高5位！また、Google検索「道の駅スタンプラリーブログ」でTOPに表示。（※現在サイト移行のため閉鎖中）</dd>
-				</dl>
-			</div>			
-		</main>
+	<menu class="header_menu">
+		<li id="myopen1">温泉ｎａｖｉ</li>
+		<li id="myopen2">イタリアン店アクセス</li>
+		<li id="myopen3">しゃぶしゃぶ店トップ</li>
+		<li id="myopen4">道の駅スタンプ集</li>
+	</menu>
+	<main>
+		<img id="top_left" class="pc_l" src="img/top_left.jpg" alt="扉左">
+		<img id="top_right" class="pc_r" src="img/top_right.jpg" alt="扉右">	
+		<img id="top_left_m" class="mo_l" src="img/top_left2.jpg" alt="扉左">
+		<img id="top_right_m" class="mo_r" src="img/top_right2.jpg" alt="扉右">	
+		<iframe name="main" frameborder="0"> </iframe>	
+	</main>
+		<menu class="footer_menu">
+			<li id="myopen5">温泉ｎａｖｉ</li>
+			<li id="myopen6">イタリアン店アクセス</li>
+			<li id="myopen7">しゃぶしゃぶ店トップ</li>
+			<li id="myopen8">道の駅スタンプ集</li>
+		</menu>
+		<p id="footer_p" class="footer_p">①上のボタンを選択クリック<br>②枠内をｽｸﾛｰロールで下画面に進みます。</p>
 		<footer>
 			<p>Portfoli</p>
-			<a href=""></a>
 		</footer>
-</body>
+		<script>
+			'use script';
+			const target1 =document.getElementById('top_left'),
+				  target2 =document.getElementById('top_right'),
+				  target3 =document.getElementById('top_left_m'),
+				  target4 =document.getElementById('top_right_m');
+			const myopen1 =document.getElementById('myopen1'),
+			      myopen2 =document.getElementById('myopen2'),
+			      myopen3 =document.getElementById('myopen3'),
+			      myopen4 =document.getElementById('myopen4'),
+			      myopen5 =document.getElementById('myopen5'),
+			      myopen6 =document.getElementById('myopen6'),
+			      myopen7 =document.getElementById('myopen7'),
+			      myopen8 =document.getElementById('myopen8');
+
+				myopen1.addEventListener('click',()=>{
+				target1.classList.add('open_left');
+				target2.classList.add('open_rigth');
+				target3.classList.add('open_left');
+				target4.classList.add('open_rigth');
+				open("onsen.html","main");
+ 	  		 	});
+ 	  		 	myopen2.addEventListener('click',()=>{
+				target1.classList.add('open_left');
+				target2.classList.add('open_rigth');
+				target3.classList.add('open_left');
+				target4.classList.add('open_rigth');
+				open("accsess.html","main");
+ 	  		 	});
+ 	  		 	myopen3.addEventListener('click',()=>{
+				target1.classList.add('open_left');
+				target2.classList.add('open_rigth');
+				target3.classList.add('open_left');
+				target4.classList.add('open_rigth');
+				open("washoku.html","main");
+ 	  		 	});
+ 	  		 	myopen4.addEventListener('click',()=>{
+				target1.classList.add('open_left');
+				target2.classList.add('open_rigth');
+				target3.classList.add('open_left');
+				target4.classList.add('open_rigth');
+				open("michi.html","main");
+ 	  		 	});
+ 	  		 	myopen5.addEventListener('click',()=>{
+				target1.classList.add('open_left');
+				target2.classList.add('open_rigth');
+				target3.classList.add('open_left');
+				target4.classList.add('open_rigth');
+				open("onsen.html","main");
+ 	  		 	});
+ 	  		 	myopen6.addEventListener('click',()=>{
+				target1.classList.add('open_left');
+				target2.classList.add('open_rigth');
+				target3.classList.add('open_left');
+				target4.classList.add('open_rigth');
+				open("accsess.html","main");
+ 	  		 	});
+ 	  		 	myopen7.addEventListener('click',()=>{
+				target1.classList.add('open_left');
+				target2.classList.add('open_rigth');
+				target3.classList.add('open_left');
+				target4.classList.add('open_rigth');
+				open("washoku.html","main");
+ 	  		 	});
+ 	  		 	myopen8.addEventListener('click',()=>{
+				target1.classList.add('open_left');
+				target2.classList.add('open_rigth');
+				target3.classList.add('open_left');
+				target4.classList.add('open_rigth');
+				open("michi.html","main");
+ 	  		 	});
+		</script>
+	</body>
 </html>
